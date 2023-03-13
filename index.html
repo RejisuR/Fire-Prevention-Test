@@ -7,6 +7,7 @@ body {
         
         margin:auto;
         height:63rem;
+        overflow-x: hidden;
         background-image:url("https://t4.ftcdn.net/jpg/02/81/65/35/360_F_281653591_LZmmypLdZaFsqOsJBsxilj3OYdINzh2B.jpg");
         background-repeat:no-repeat;
         background-attachment:fixed;
@@ -32,17 +33,16 @@ font-weight:900;
 
 .heading {
         
-        color:#FFA282;
-        font-size:30;
-        text-align: center;
-        position:absolute;
-        left:46%;
-        bottom:85%;
-        font-family: "Verdana", sans-serif;
-
-
+color:#FFA282;
+font-size:30;
+text-align: center;
+position:absolute;
+left:46%;
+bottom:85%;
+font-family: "Verdana", sans-serif;
 
 }
+
 
 .background1 {
    
@@ -56,46 +56,28 @@ opacity: 0.7;
 
 }
 
-.rnp {
-
-color:#8B0000;
-position:absolute;
-bottom:65%;
-left:40%;    
-font-size:50;
+.title {
+        
+font-size:70;
+position:relative;
+bottom:50%;
+left:2%;
 font-family: "Fantasy", Papyrus;
-font-weight: 900;
+font-weight:900;
+color: #8B0000;
+text-align:center;
 
 }
 
-table, td, th {
+.des1 {
 
-color:#8B0000;
-font-size:25;
-border: 5px solid;
-text-align: center;
-font-family: "Verdana", sans-serif;
-
-
-}
-
-.tbl {
-
-position:absolute;
-top:35%;
-left:10%;
-width:80%;
-overflow-y:visible;
-
-
-}
-
-th {
-
-background-color:#FFA282;    
-font-weight: 900;
-font-size:35;
-
+font-size:28;
+position:relative;
+bottom:50%;
+left:23%;
+color: #8B0000;
+max-width: 1150;
+font-family: "Sans-serif", Verdana;
 }
 
 .credit {
@@ -107,6 +89,7 @@ position:absolute;
 top:60rem;
 left:44%;
 
+
 }
 
 
@@ -117,39 +100,21 @@ left:44%;
         <section>
             <p class="headtitle"></p>
             <p class="headtitle" style="max-width:100%;max-height:50;position:absolute;bottom:88%;left:39%">LEARN FIRE SAFETY</p>
-            <a href="LOPEZ_PTASK3.html"><div class="heading" style="position:absolute;left:35%;">Home</div></a>
+            <div class="heading" style="position:absolute;left:35%;">Home</div>
             <a href="Prevention.html"><div class="heading">What to do</div></a>
-            <div class="heading" style="position:absolute;left:60%;">References</div>
+            <a href="References.html"><div class="heading" style="position:absolute;left:60%;">References</div></a>
         </section>
         <section>
             <p class="background1"></p>
-            <p class="rnp">List of References</p>
-            <table class="tbl">
-                <tr>
-                    <th>Information sources:</th>
-                </tr>
-                <tr>
-                    <td><a href="https://www.bu.edu/ehs/ehs-topics/fire-safety/fire-safety-dos-and-donts/">https://www.bu.edu/ehs/ehs-topics/fire-safety/fire-safety-dos-and-donts/</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://e911.gov.ph/emergency-hotline-numbers/">https://e911.gov.ph/emergency-hotline-numbers/</a></td>
-                </tr>
-                <tr>
-                    <th>Image sources:</th>
-                </tr>
-                <tr>
-                    <td><a href="https://upload.wikimedia.org/wikipedia/commons/d/d9/Smoke_detector.JPG">https://upload.wikimedia.org/wikipedia/commons/d/d9/Smoke_detector.JPG</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.barrybros.com/wp-content/uploads/2022/06/Depositphotos_3353196_S.jpg">https://www.barrybros.com/wp-content/uploads/2022/06/Depositphotos_3353196_S.jpg</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.gannett-cdn.com/presto/2022/02/18/USAT/034726cf-8ac0-4b62-b7cc-fe2fd0ce6b1a-extinguisher.jpg">https://www.gannett-cdn.com/presto/2022/02/18/USAT/034726cf-8ac0-4b62-b7cc-fe2fd0ce6b1a-extinguisher.jpg</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://t4.ftcdn.net/jpg/02/81/65/35/360_F_281653591_LZmmypLdZaFsqOsJBsxilj3OYdINzh2B.jpg">https://t4.ftcdn.net/jpg/02/81/65/35/360_F_281653591_LZmmypLdZaFsqOsJBsxilj3OYdINzh2B.jpg</a></td>
-                </tr>
-            </table>
+        </section>
+        <section>
+            <h1 class="title">Learn Fire Safety Now!</h1>
+	        <p class="des1">Did you know that there were a total of 13,574 fire incidents that were recorded and posted in 2021 alone? While in 2022, 
+                there are 4.02% fewer recorded with 13,029 fire incidents, but we should still take notice and take action into preventing these types 
+                of disasters as they are life-threatening and destructive to properties. That is why we've created a short but informative list of how 
+                to prevent fire disasters and what to do before, during, and after the disaster.
+            </p>
+            <p class="des1"><a href="Prevention.html">What to do</a></p>
         </section>
         <section>
             <p class="credit">Made by Bon Jeck Hommer Lopez</p>
